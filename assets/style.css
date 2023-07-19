@@ -68,11 +68,11 @@ body {
 }
 
 .picture img {
-	width: 100%;
-	max-width: 500px;
-	max-height: 500px;
-
+	max-width: 100%;
+    width: 500px;
+    height: auto;
 }
+
 #about-me {
 	flex: 2
 }
