@@ -256,9 +256,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-.carousel-item img{
-    aspect-ratio: 50/23;
-}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
