@@ -66,12 +66,13 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+	aspect-ratio: 1/1;
 }
 
 .picture img {
     max-width: 100%;
     width: 500px;
-    height: auto;
+	aspect-ratio: 1/1;
 }
 
 #about-me {
@@ -253,6 +254,10 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.carousel-item img{
+    aspect-ratio: 50/23;
 }
 
 @media all and (max-width: 1180px) {
